@@ -35,7 +35,6 @@ Your project will now be accessible at http://localhost:8000/.
 Users can register an account by making a POST request to /accounts/api/register/.  
 Users can login and retrieve their authentication token by making a POST request to /accounts/api/login/.
 
-
 https://github.com/sleep323/Django_Assignment/assets/90721328/d31acbf1-4d0c-438e-bd42-f3c456d1d601
 
 
@@ -45,13 +44,23 @@ https://github.com/sleep323/Django_Assignment/assets/90721328/d31acbf1-4d0c-438e
 Endpoint: POST /accounts/api/works/new_works/  
 Request Body: JSON data with work details  
 
+https://github.com/sleep323/Django_Assignment/assets/90721328/4c06e3d6-9c45-4879-ae1a-d282ccce10b6
+
+
 **Retrieving a list of all works:**  
 Endpoint: GET /accounts/works/
+
+https://github.com/sleep323/Django_Assignment/assets/90721328/bd37224a-b3d7-42d4-a070-06043f0ebfb7
+
+
 
 **Integrate Filtering with Work Type:**  
 
 Endpoint:   GET /api/works/?work_type=<work_type>  
 Replace <work_type> with the desired work type (e.g., "YT", "IG", "OT").   
+
+https://github.com/sleep323/Django_Assignment/assets/90721328/b96850dc-0484-4a96-bcaf-74f7d50c47e7
+
 
 ### Apply database migrations before running the server:  
 **python manage.py makemigrations  

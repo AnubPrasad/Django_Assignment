@@ -36,6 +36,10 @@ Users can register an account by making a POST request to /accounts/api/register
 Users can login and retrieve their authentication token by making a POST request to /accounts/api/login/.
 
 
+https://github.com/sleep323/Django_Assignment/assets/90721328/d31acbf1-4d0c-438e-bd42-f3c456d1d601
+
+
+
 ### Rest API Endpoints:  
 **Create a new work:**  
 Endpoint: POST /accounts/api/works/new_works/  
